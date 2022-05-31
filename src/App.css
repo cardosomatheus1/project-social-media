@@ -1,0 +1,71 @@
+.homePage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{ 
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  align-items: center;
+  width: 100%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column
+}
+
+.post{ 
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+
+
+.nameImg{
+display: flex;
+align-items: center;
+background-color: green;
+width: 100%;
+justify-content: flex-start;
+}
+.nameImg img{
+  width: 2vw;
+  height: 4vh;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.buttonPost{
+  margin-top: 20px;
+  display: flex;
+  background-color:green;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.container-posted{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.posted{ 
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.image-post{ 
+  width: 40vw;
+  height: 40vh;
+}
+
+
